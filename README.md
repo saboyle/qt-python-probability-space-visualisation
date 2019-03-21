@@ -8,10 +8,14 @@ A number of versions will be developed:
 
     Representation of arbitrary percentages on a 2d heatmap using pre-defined colour maps.
 
-##  Version 2 - dynamic visualization (heatmap) - [TODO]
+##  Version 2 - dynamic visualization (heatmap) 
 
     A colour map linked to timed update, updating the visualization in near real time showing 
     shifting probabilities.
 
     The simulation shows uses brownian motion to simulate the moving 
     probabilities.
+    
+##  Version 3 - async visualization (heatmap) 
+
+    As version 2 but connected to message queue async feed.
