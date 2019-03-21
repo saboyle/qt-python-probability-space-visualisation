@@ -6,4 +6,4 @@ with themed heatmap colouring based on probability.
 Space is randomly updated every _n_ milliseconds to simulate
 probability movements.
 
-![](./images/spectral.png)
+![](./images/animated.gif)
