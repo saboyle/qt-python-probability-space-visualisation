@@ -10,7 +10,7 @@ A number of versions will be developed:
 
 ##  Version 2 - dynamic visualization (heatmap) - [TODO]
 
-    A colour map linked to a message queue, updating in near real time showing 
+    A colour map linked to timed update, updating the visualization in near real time showing 
     shifting probabilities.
 
     The simulation shows uses brownian motion to simulate the moving 
