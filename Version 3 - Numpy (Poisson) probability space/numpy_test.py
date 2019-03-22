@@ -49,15 +49,16 @@ class NumpyModel(QtCore.QAbstractTableModel):
 
 
 if __name__ == "__main__":
-    a = QtWidgets.QApplication([])
-    w = QtWidgets.QTableView()
+    app = QtWidgets.QApplication([])
+    widget = QtWidgets.QTableView()
 
-    d = correct_score_grid(5.2, 7.1, 13)
-    m = NumpyModel(d)
-    w.setItemDelegate(HMDelegate(m))
-    w.setModel(m)
-    w.resizeColumnsToContents()
-    w.resizeRowsToContents()
-    w.show()
+    data = correct_score_grid(5.2, 7.1, 13)  # Hardcoded for now.
 
-    sys.exit(a.exec_())
+    model = NumpyModel(data)
+    widget.setItemDelegate(HMDelegate(model))
+    widget.setModel(model)
+    widget.resizeColumnsToContents()
+    widget.resizeRowsToContents()
+    widget.show()
+
+    sys.exit(app.exec_())
