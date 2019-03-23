@@ -13,6 +13,12 @@ A number of versions will be developed:
     A colour map linked to timed update, updating the visualization in near real time showing 
     shifting probabilities.
     
-##  Version 3 - async visualization (heatmap) 
+##  Version 3 - Numpy (Poisson) derived Probability space 
 
-    As version 2 but connected to message queue async feed.
+    Refactoring of Probability Space using Numpy / SciPy to 
+    calculate probability distribution.
+    
+## Version 4 - Numpy (Poisson) with simulated probability movements
+
+    As version 3 with basic simulation of probabilty movements
+    to explore animation & GUI updates.
