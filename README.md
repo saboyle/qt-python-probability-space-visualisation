@@ -22,3 +22,8 @@ A number of versions will be developed:
 
     As version 3 with basic simulation of probabilty movements
     to explore animation & GUI updates.
+    
+## Version 5 - message queue visualization
+
+    A separate simulator (see below) is used to generate update messages
+    at a given frequency and behaviour.
