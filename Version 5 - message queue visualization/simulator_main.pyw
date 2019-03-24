@@ -5,6 +5,7 @@ import sys
 # See https://nikolak.com/pyqt-qt-designer-getting-started/
 # For useful tutorial / notes
 
+
 class ExampleApp(QtWidgets.QMainWindow, Ui_MainWindow):
     def __init__(self):
         super(self.__class__, self).__init__()
