@@ -25,5 +25,6 @@ A number of versions will be developed:
     
 ## Version 5 - message queue visualization
 
-    A separate simulator (see below) is used to generate update messages
-    at a given frequency and behaviour.
+    A separate simulator is used to generate update messages
+    at a given frequency and behaviour.  These are posted
+    to a message queue then picked up by a separate subscriber.
