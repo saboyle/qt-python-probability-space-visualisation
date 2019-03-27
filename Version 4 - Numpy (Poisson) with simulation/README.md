@@ -8,4 +8,4 @@ colour coding.
 A generator is used to produce updated home and away goal expectations 
 based on brownian motion. 
 
-![](./images/spectral.png)
+![](./images/spectral_anim.gif)
